@@ -1,0 +1,162 @@
+
+/*footer*/
+.footer {
+    margin-top: 10px;
+    background-color: black;
+    color: rgb(89, 89, 87);
+    padding: 20px;
+}
+
+.box-footer .container>p {
+    margin: 10px 0 20px 0;
+}
+
+.box-footer .container {
+    max-width: 1000px;
+}
+
+.box-single {
+    display: flex;
+}
+
+.box-single .box-single-footer {
+    margin-right: 45px;
+    margin-bottom: 20px;
+}
+
+.box-single .box-single-footer ul {
+    list-style: none;
+}
+
+.box-single .box-single-footer li {
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+/* Fim footer */
+/* <========Login===========> */
+#corpo {
+    background-image:
+        linear-gradient(to bottom, rgba(0, 0, 0, 0.781), rgba(0, 0, 0, 0.158)),
+        linear-gradient(to top, rgba(0, 0, 0, 0.432), rgba(0, 0, 0, 0.007)),
+        url(https://assets.nflxext.com/ffe/siteui/vlv3/e89c9679-2f5f-491d-924c-c58924a8ee4b/f9c4098e-22e1-4b5c-b668-47519ee56dc7/BR-pt-20221121-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.group-form {
+    background-color: rgba(0, 1, 1, 0.658);
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 50px;
+    color: rgb(115, 115, 115);
+}
+
+.group-form form h1 {
+    margin: 10px 0 20px 0;
+    color:white;
+    font-size: 40px;
+}
+
+.group-form form .form-g input[type=text],
+.group-form form .form-g input[type=password] {
+    width: 100%;
+    background-color: rgb(51, 51, 51);
+    outline: none;
+    border: none;
+    height: 45px;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 3px;
+    font-size: 16px;
+    color: rgb(115, 115, 115);
+}
+
+.group-form form .form-g button {
+    width: 100%;
+    background-color: rgb(229, 9, 20);
+    outline: none;
+    border: none;
+    height: 45px;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 3px;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.group-form form .form-g .form-footer {
+    margin-top: 20px;
+}
+
+.group-form form .form-g .form-footer input[type=checkbox] {
+    float: left;
+    outline: none;
+    border: none;
+}
+
+.form-footer p {
+    float: right;
+}
+
+.box-description {
+    margin-top: 60px;
+}
+
+.box-description>a {
+    text-decoration: none;
+    color: rgb(115, 115, 115);
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.box-description a img {
+    width: 25px;
+    margin-right: 10px;
+    border-radius: 3px;
+}
+
+.box-description p {
+    margin: 12px 0;
+}
+
+.box-description p span {
+    color: white;
+}
+
+.box-description p:last-child a {
+    color: rgb(0, 98, 255);
+    text-decoration: none;
+}
+
+.footer-login {
+    margin-top: 80px;
+    padding: 20px;
+    background-color: rgba(0, 1, 1, 0.658);
+    color: rgb(115, 115, 115);
+}
+
+.footer-login .box-single-footer {
+    margin-right: 100px;
+}
+
+@media (max-width:730px) {
+    #corpo {
+        background-image: none;
+        background-color: black;
+    }
+
+    .group-form {
+        background-color: rgba(0, 1, 1, 0.658);
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    .box-description {
+        margin-top: 20px;
+    }
+}
+/* <=======Fim Login========> */
